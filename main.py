@@ -1,9 +1,8 @@
-from config import Config,testowa
+from servises.open_weather import fetch_weather
 
-print(Config.CITY)
-print(testowa)
+weather = fetch_weather()
 
-
+print(weather)
 # -- GIT --
 #git init
 #git status
